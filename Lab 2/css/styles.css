@@ -1,0 +1,103 @@
+body {
+    background-color: #6F69AC;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#container {
+    background-color: #95DAC1;
+    width: 900px; 
+    margin: 20px auto; 
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px black;
+}
+
+header{
+    padding: 20px 0; 
+    background-color: #FD6F96;
+    border-radius: 20px 20px 0 0;
+    text-shadow: 4px 4px 4px black;
+}
+
+header img {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: #95DAC1;
+}
+
+nav {
+    background-color: #95DAC1;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #FD6F96;
+    height: 50px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    color: #6F69AC;
+    text-decoration: none;
+    border-radius: 20px 20px 0 0; 
+    margin: 0 10px; 
+}
+
+nav a:hover {
+    background-color: #6F69AC;
+    color: #FD6F96;
+}
+
+main {
+    background-color: #FD6F96;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+
+}
+
+main h2 {
+    text-align: center;
+    color: #FFEBA1;
+    font-size: 2em;
+}
+
+main p {
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+main img {
+    display: block;
+    width: 30%;
+    margin: 50px auto;
+    background-color: #6F69AC;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #FD6F96;
+    padding: 60px 0;
+    color: #95DAC1; 
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.active {
+    background-color: #6F69AC;
+    color: #FD6F96; 
+}
+
+.pro_head {
+    text-align: center;
+    color: #95DAC1;
+    font-size: 1.5em;
+}
