@@ -1,6 +1,6 @@
 body {
     background-color: #6F69AC;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #container {
@@ -103,4 +103,8 @@ footer {
     color: #95DAC1;
     font-size: 1.5em;
     font-family: 'Zen Old Mincho', serif;
+}
+
+.pro_para {
+    color: #FFEBA1;
 }
