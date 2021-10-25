@@ -71,10 +71,7 @@ main h2 {
     font-family: 'Zen Old Mincho', serif;
 }
 
-main p {
-    font-size: 20px;
-    font-weight: 300px;
-}
+
 
 main img {
     display: block;
@@ -82,7 +79,7 @@ main img {
     margin: 50px auto;
     background-color: #6F69AC;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 footer {
