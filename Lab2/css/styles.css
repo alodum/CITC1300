@@ -9,6 +9,7 @@ body {
     margin: 20px auto; 
     border-radius: 20px;
     box-shadow: 7px 7px 10px black;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -76,11 +77,11 @@ main h2 {
 
 main img {
     display: block;
-    width: 30%;
+    width: 10%;
     margin: 50px auto;
     background-color: #6F69AC;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 footer {
@@ -108,5 +109,5 @@ footer {
     color: #3b3d3b;
     text-align: center;
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 500px;
 }
