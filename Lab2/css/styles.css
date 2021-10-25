@@ -74,10 +74,9 @@ main h2 {
 }
 
 
-
 main img {
     display: block;
-    width: 10%;
+    width: 15%;
     margin: 50px auto;
     background-color: #6F69AC;
     padding: 20px;
