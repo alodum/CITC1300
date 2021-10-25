@@ -106,8 +106,14 @@ footer {
 }
 
 .pro_para {
-    color: #3b3d3b;
+    color: #FFEBA1;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: 500px;
+}
+
+.mainp {
+    color: black;
+    font-size: 2em;
     font-weight: 500px;
 }
