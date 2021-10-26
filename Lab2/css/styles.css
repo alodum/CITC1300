@@ -9,6 +9,7 @@ body {
     margin: 20px auto; 
     border-radius: 20px;
     box-shadow: 7px 7px 10px black;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -62,6 +63,7 @@ main {
     background-color: #FD6F96;
     padding: 20px;
     margin: 0 20px 20px 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 main h2 {
@@ -110,9 +112,9 @@ footer {
 }
 
 .mainp {
-    color: black;
+    color: #3b3b38;
     font-size: 1.5em;
-    font-weight: 300px;
+    font-weight: 100px;
 }
 
 .haimg {
