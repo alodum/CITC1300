@@ -105,6 +105,7 @@ footer {
 }
 
 .pro_para {
+    font-family: 'Poppins', sans-serif;
     color: #3b3b38;
     text-align: center;
     font-size: 2em;
@@ -112,6 +113,7 @@ footer {
 }
 
 .mainp {
+    font-family: 'Poppins', sans-serif;
     color: #3b3b38;
     font-size: 1.5em;
     font-weight: 100px;
