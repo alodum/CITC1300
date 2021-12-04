@@ -1,0 +1,279 @@
+/* Global Styles */
+body {
+    background-color: #7193D9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Mobile Styles */
+
+#container {
+   background-color:#6F69AC; 
+   border-radius: 7px;
+   border: 10px ridge #48A1D9;
+   width: 1500px;
+   margin: 100px auto; 
+   box-shadow: 7px 7px 10px black;
+}
+
+header{
+    background-color: #7193D9;
+    text-align: center;
+    border-radius: 7px;
+    padding: 70px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 20%;
+}
+
+header h1{
+    color: #F2EAD0;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 4px 4px 4px black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav li a {
+    display: block;
+    background-color: #3314A6;
+    color: #8FAFD9;
+    height:  40px;
+    line-height: 40px;
+    text-align-last: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 10px 0;
+    border-radius: 7px;
+   
+}
+
+nav a:hover {
+    background-color: #3BC9D9;
+    color: #D936A0;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, .col, footer, main {
+    text-align: center;
+    border: 10px ridge #8F73CE;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.3em;
+    background-color: #8F73CE;
+}
+
+nav a {
+    display: inline-block;
+    border: 2px solid #8F73CE;
+    height: 50px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 70px;
+    color: #48A1D9;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0; 
+    margin: 0 30px; 
+}
+
+h2, h3 {
+    color: #472294;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+main {
+    background-color: #BF36A8;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    
+}
+
+main h2 {
+    text-align: center;
+    color: #FFEBA1;
+    font-size: 1.2em;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+footer {
+    background-color: #8F73CE;
+    color: #F2EAD0; 
+    font-size: 2.5em; 
+}
+
+.active {
+    background-color: #6F69AC;
+    color: #D936A0; 
+}
+
+.button {
+    display: block;
+    background-color: #3314A6;
+    color: #8FAFD9;
+    height:  40px;
+    width: 200px;
+    line-height: 40px;
+    text-align-last: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #48A1D9;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.pro_head {
+    font-size: 2em;
+}
+
+
+table {
+    display: none;
+}
+
+.para {
+    font-size: 1.2em;
+}
+
+.gallery_img {
+    border: 4px solid #3E065F;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+audio, video {
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    }
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+    display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 30%;
+        
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 40px;
+        border-radius: 7px;
+        border: 4px ridge #8F73CE;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+
+    
+
+    table {
+        display: none;
+    }
+}
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px ridge #8F73CE;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+
+    .col img {
+        width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px ridge #6F69AC;
+        padding: 20px;
+        margin: 10px;
+        width: 100%;
+    }
+
+    table_img {
+        width: 100%;
+    }
+
+    .gallery_img {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+}
